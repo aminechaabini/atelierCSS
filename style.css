@@ -1,0 +1,98 @@
+header {
+    background-image: url("img/top_bg.png");
+    width: 100vw;
+    height: 52px;
+
+}
+footer {
+    background-image: url("img/foot_bg.png");
+    width: 100vw;
+    height: 212px;
+}
+img{
+    width: 12vw;
+    height: 14vw;
+}
+#top {
+    margin:0 20vw;
+    background-image: url("img/flash_img.png");
+    width: 946px;
+    height: 447px;
+    background-repeat: no-repeat;
+
+}
+#top a{
+    text-decoration: none;
+    color: white;
+}
+#top li:hover{
+    background-image: url(img/rings.png);
+    background-color:black;
+    background-repeat: no-repeat;
+    height: 6vh;
+    margin: 0;
+
+    background-position: right;
+}
+#top nav{
+    height: 7vh;
+    background-color: brown;
+    position: relative;
+    margin-top: 29vh;
+}
+#top  nav ul {
+    justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#top nav ul li{
+    height: 100%;
+    width: 100%;
+    margin-top: 12px;
+    font-family: fantasy;
+}
+#mid{
+    margin:0 20vw;
+}
+
+
+article{
+    width: 60vw;
+    display:inline-block;
+}
+
+
+article a,h1{
+    color: brown;
+}
+
+section {
+    float: left;
+    width: 32vw;
+    margin: auto;
+}
+#etapes {
+    float: right;
+
+}
+
+#tuiles {
+    float: right;
+    margin-left: 12px;
+}
+
+#cubes p{
+    text-align: center;
+}
+
+#cubes img{
+    margin: 0 1vw;
+}
+
+#bot{
+    text-align:center;
+}
+#mid #bot{
+    font-family: "Courier New", sans-serif;
+}
